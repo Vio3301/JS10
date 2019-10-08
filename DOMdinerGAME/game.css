@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+#scene{
+    height: 100px;
+    background-color: #999;
+}
+#scene .dino{
+    background-image: url(./img/dino.png);
+   
+}
+
+#scene .dino.jump{
+    animation: jump 0.5s;
+}
+
+@keyframes jump{
+0%{transform: translateY(0px)}
+50%{transform: translateY(-50px)}
+100%{transform: translateY(0px)}
+}
